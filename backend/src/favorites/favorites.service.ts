@@ -9,12 +9,17 @@ export class FavoritesService {
     }
 
     toggle(userId: string, propertyId: string): string[] {
-        if (!this.favorites[userId]) this.favorites[userId] = new Set();
+        if (!this.favorites[userId]) {
+            this.favorites[userId] = new Set();
+        }
 
         const favs = this.favorites[userId];
 
-        if (favs.has(propertyId)) favs.delete(propertyId);
-        else favs.add(propertyId);
+        if (favs.has(propertyId)) {
+            favs.delete(propertyId);
+        } else {
+            favs.add(propertyId);
+        }
 
         return Array.from(favs);
     }
