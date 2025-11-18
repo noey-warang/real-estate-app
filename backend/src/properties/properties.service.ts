@@ -5,7 +5,7 @@ export class PropertiesService {
     private properties = [
         {
             id: '1',
-            title: 'Condo',
+            title: 'คอนโด',
             image: 'http://localhost:5000/uploads/condo.png',
             location: 'Bangkok',
             price: 3500000,
@@ -13,19 +13,19 @@ export class PropertiesService {
         },
         {
             id: '2',
-            title: 'Villa',
+            title: 'บ้านเดี่ยว (หลังเดี่ยว)',
             image: 'http://localhost:5000/uploads/villa.png',
-            location: 'Phuket',
+            location: 'Bangkok',
             price: 12500000,
-            description: 'สระว่ายน้ำส่วนตัว, ใกล้หาด',
+            description: 'สระว่ายน้ำส่วนตัว,เงียบสงบ, มีสวนหลังบ้านใหญ่',
         },
         {
             id: '3',
-            title: 'House',
+            title: 'บ้านเดี่ยวแฝด',
             image: 'http://localhost:5000/uploads/house.png',
-            location: 'Chiang Mai',
+            location: 'Bangkok',
             price: 4200000,
-            description: 'เงียบสงบ, มีสวนหลังบ้านใหญ่',
+            description: 'บ้าน 2 หลังที่มีโครงสร้างบางส่วนติดกันหรือมีผนังร่วมกัน,มีพื้นที่บริเวณบ้าน',
         },
     ];
 
